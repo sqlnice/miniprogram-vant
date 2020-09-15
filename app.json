@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/account/account"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#048bff",
+    "navigationBarBackgroundColor": "#048bff",
+    "navigationBarTitleText": "小程序",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#1296db",
+    "backgroundColor": "#ffffff",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index-off.png",
+        "selectedIconPath": "images/index-on.png"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "text": "个人中心",
+        "iconPath": "images/account-off.png",
+        "selectedIconPath": "images/account-on.png"
+      }
+    ]
+  }
+}
